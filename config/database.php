@@ -44,6 +44,12 @@ return [
         ],
 
         'mysql' => [
+            'read' => [
+                'host' => 'CHANGE_TO_SLAVE_DB_IP_ADDRESS',
+            ],
+            'write' => [
+                'host' => 'CHANGE_TO_MASTER_DB_IP_ADDRESS'
+            ],
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),

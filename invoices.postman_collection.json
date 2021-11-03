@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "1862a937-4d8c-496d-9efd-a66b37071dc0",
+		"name": "invoices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8000/api/v1/invoices",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "description",
+							"value": "test",
+							"description": "te dd",
+							"type": "text"
+						},
+						{
+							"key": "due_date",
+							"value": "11/11/2021",
+							"description": "hdhdh",
+							"type": "text"
+						},
+						{
+							"key": "tax_percentage",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "items",
+							"value": "{\n\"data\":\n [ {\"description\":\"Testing item 1\", \"quantity\":\"10\", \"unit_price\":\"150\"},\n {\"description\":\"Testing item 2\", \"quantity\":\"2\", \"unit_price\":\"890\"}\n]\n}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/api/v1/invoices",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"invoices"
+					]
+				},
+				"description": "Get all invoices on the system"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/v1/invoices",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "description",
+							"value": "test",
+							"description": "te dd",
+							"type": "text"
+						},
+						{
+							"key": "due_date",
+							"value": "11/11/2021",
+							"description": "hdhdh",
+							"type": "text"
+						},
+						{
+							"key": "tax_percentage",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "items",
+							"value": "{\n\"data\":\n [ {\"description\":\"Testing item 1\", \"quantity\":\"10\", \"unit_price\":\"150\"},\n {\"description\":\"Testing item 2\", \"quantity\":\"2\", \"unit_price\":\"890\"}\n]\n}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/api/v1/invoices",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"invoices"
+					]
+				},
+				"description": "Get all invoices on the system"
+			},
+			"response": []
+		}
+	]
+}
