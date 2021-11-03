@@ -15,14 +15,12 @@
 					"formdata": [
 						{
 							"key": "description",
-							"value": "test",
-							"description": "te dd",
+							"value": "Invoice for Sample Name 2021",
 							"type": "text"
 						},
 						{
 							"key": "due_date",
 							"value": "11/11/2021",
-							"description": "hdhdh",
 							"type": "text"
 						},
 						{
@@ -32,7 +30,7 @@
 						},
 						{
 							"key": "items",
-							"value": "{\n\"data\":\n [ {\"description\":\"Testing item 1\", \"quantity\":\"10\", \"unit_price\":\"150\"},\n {\"description\":\"Testing item 2\", \"quantity\":\"2\", \"unit_price\":\"890\"}\n]\n}",
+							"value": "{\n\"data\":\n [ {\"description\":\"VPS Server 2CPU 16GB RAM\", \"quantity\":\"1\", \"unit_price\":\"15000\"},\n {\"description\":\"Domain Registration (example.com and example.org)\", \"quantity\":\"2\", \"unit_price\":\"15000\"}\n]\n}",
 							"type": "text"
 						}
 					]
